@@ -32,5 +32,7 @@ console.log(programming.replace(" not",""));
 
 // Vergelijken
 
-//let opdracht 3 = 1400 + 'ik woon in Naboo';
-//Met deze code krijg je een Syntax error, je kan geen string en nummer bij elkaar optellen.
+let opdracht3 = 1400;
+let opdracht31 = 'ik woon in Naboo';
+console.log(opdracht3==opdracht31);
+// Je kan geen nummer met een string vergelijken, vandaar dat dit onzin is
